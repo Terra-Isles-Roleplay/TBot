@@ -27,10 +27,10 @@ $config[1]['enable'] = true;
 $config[1]['server']['ip'] = '127.0.0.1'; //ip serwera
 $config[1]['server']['port'] = 9987; //port serwera
 $config[1]['server']['queryport'] = 10011; //port server query
-$config[1]['query']['login'] = 'serveradmin'; //nazwa server query
-$config[1]['query']['password'] = ''; //hasło server query
-$config[1]['bot']['name'] = "#1"; //nazwa bota
-$config[1]['bot']['channel'] =  28; //domyślny kanał bota
+$config[1]['query']['login'] = 'TRPBot'; //nazwa server query
+$config[1]['query']['password'] = 'qCDvCAHX'; //hasło server query
+$config[1]['bot']['name'] = "TRP Management Goon"; //nazwa bota
+$config[1]['bot']['channel'] =  1451; //domyślny kanał bota
 $config[1]['bot']['speed'] = 1; //intertwał bota
 
 $config[1]['functions'] = Array('day', 'hour','useronline' ,'register' ,'recordonline' ,'afk' ,'pgroup' ,'banlist' ,'channelscount' ,'visitors', 'packetloss', 'ping', 'uptime', 'generatebanner', 'channelzoneclient', 'adminslist', 'timeleft');
